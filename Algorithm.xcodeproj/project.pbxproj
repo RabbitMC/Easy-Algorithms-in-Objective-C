@@ -10,6 +10,8 @@
 		E7CC1B80166E1CD20000D88C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7CC1B7F166E1CD20000D88C /* Foundation.framework */; };
 		E7CC1B83166E1CD20000D88C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E7CC1B82166E1CD20000D88C /* main.m */; };
 		E7CC1B87166E1CD20000D88C /* Algorithm.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = E7CC1B86166E1CD20000D88C /* Algorithm.1 */; };
+		E7CC1B8F166E1CF70000D88C /* MCBubbleSort.m in Sources */ = {isa = PBXBuildFile; fileRef = E7CC1B8E166E1CF70000D88C /* MCBubbleSort.m */; };
+		E7CC1B92166E27720000D88C /* MCSelectionSort.m in Sources */ = {isa = PBXBuildFile; fileRef = E7CC1B91166E27720000D88C /* MCSelectionSort.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +33,10 @@
 		E7CC1B82166E1CD20000D88C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E7CC1B85166E1CD20000D88C /* Algorithm-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Algorithm-Prefix.pch"; sourceTree = "<group>"; };
 		E7CC1B86166E1CD20000D88C /* Algorithm.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Algorithm.1; sourceTree = "<group>"; };
+		E7CC1B8D166E1CF70000D88C /* MCBubbleSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCBubbleSort.h; sourceTree = "<group>"; };
+		E7CC1B8E166E1CF70000D88C /* MCBubbleSort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCBubbleSort.m; sourceTree = "<group>"; };
+		E7CC1B90166E27720000D88C /* MCSelectionSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCSelectionSort.h; sourceTree = "<group>"; };
+		E7CC1B91166E27720000D88C /* MCSelectionSort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCSelectionSort.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +80,10 @@
 			isa = PBXGroup;
 			children = (
 				E7CC1B82166E1CD20000D88C /* main.m */,
+				E7CC1B8D166E1CF70000D88C /* MCBubbleSort.h */,
+				E7CC1B8E166E1CF70000D88C /* MCBubbleSort.m */,
+				E7CC1B90166E27720000D88C /* MCSelectionSort.h */,
+				E7CC1B91166E27720000D88C /* MCSelectionSort.m */,
 				E7CC1B86166E1CD20000D88C /* Algorithm.1 */,
 				E7CC1B84166E1CD20000D88C /* Supporting Files */,
 			);
@@ -140,6 +150,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				E7CC1B83166E1CD20000D88C /* main.m in Sources */,
+				E7CC1B8F166E1CF70000D88C /* MCBubbleSort.m in Sources */,
+				E7CC1B92166E27720000D88C /* MCSelectionSort.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

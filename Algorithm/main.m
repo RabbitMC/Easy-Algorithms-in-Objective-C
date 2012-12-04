@@ -8,13 +8,30 @@
 
 #import <Foundation/Foundation.h>
 
+#import "MCBubbleSort.h"
+#import "MCSelectionSort.h"
+
 int main(int argc, const char * argv[])
 {
 
     @autoreleasepool {
         
         // insert code here...
-        NSLog(@"Hello, World!");
+        NSArray * a = [NSArray arrayWithObjects:
+                       [NSNumber numberWithInt:4],
+                       [NSNumber numberWithInt:35],
+                       [NSNumber numberWithInt:8],
+                       [NSNumber numberWithInt:1],
+                       [NSNumber numberWithInt:6],
+                       [NSNumber numberWithInt:3],
+                       [NSNumber numberWithInt:2],
+                       [NSNumber numberWithInt:5],nil];
+
+//        MCBubbleSort * bubbleSort = [[MCBubbleSort alloc] initWithArray:a];
+        MCSelectionSort * selectionSort = [[MCSelectionSort alloc] initWithArray:a];
+        
+//        NSLog(@"%@", [bubbleSort sort]);
+        NSLog(@"%@", [selectionSort sort]);
         
     }
     return 0;
