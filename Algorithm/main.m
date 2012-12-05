@@ -10,6 +10,7 @@
 
 #import "MCBubbleSort.h"
 #import "MCSelectionSort.h"
+#import "MCInsertionSort.h"
 
 int main(int argc, const char * argv[])
 {
@@ -18,20 +19,24 @@ int main(int argc, const char * argv[])
         
         // insert code here...
         NSArray * a = [NSArray arrayWithObjects:
-                       [NSNumber numberWithInt:4],
+                       [NSNumber numberWithInt:1],
                        [NSNumber numberWithInt:35],
                        [NSNumber numberWithInt:8],
                        [NSNumber numberWithInt:1],
                        [NSNumber numberWithInt:6],
                        [NSNumber numberWithInt:3],
                        [NSNumber numberWithInt:2],
-                       [NSNumber numberWithInt:5],nil];
+                       [NSNumber numberWithInt:5],
+                       [NSNumber numberWithInt:4],
+                       [NSNumber numberWithInt:3],nil];
 
 //        MCBubbleSort * bubbleSort = [[MCBubbleSort alloc] initWithArray:a];
-        MCSelectionSort * selectionSort = [[MCSelectionSort alloc] initWithArray:a];
-        
+//        MCSelectionSort * selectionSort = [[MCSelectionSort alloc] initWithArray:a];
+        MCInsertionSort * insertionSort = [[MCInsertionSort alloc] initWithArray:a];
+
 //        NSLog(@"%@", [bubbleSort sort]);
-        NSLog(@"%@", [selectionSort sort]);
+//        NSLog(@"%@", [selectionSort sort]);
+        NSLog(@"%@", [insertionSort sort]);
         
     }
     return 0;
