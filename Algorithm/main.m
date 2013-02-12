@@ -11,6 +11,7 @@
 #import "MCBubbleSort.h"
 #import "MCSelectionSort.h"
 #import "MCInsertionSort.h"
+#import "MCQuickSort.h"
 
 int main(int argc, const char * argv[])
 {
@@ -32,11 +33,13 @@ int main(int argc, const char * argv[])
 
 //        MCBubbleSort * bubbleSort = [[MCBubbleSort alloc] initWithArray:a];
 //        MCSelectionSort * selectionSort = [[MCSelectionSort alloc] initWithArray:a];
-        MCInsertionSort * insertionSort = [[MCInsertionSort alloc] initWithArray:a];
+//        MCInsertionSort * insertionSort = [[MCInsertionSort alloc] initWithArray:a];
+        MCQuickSort * quickSort = [[MCQuickSort alloc] initWithArray:a];
 
 //        NSLog(@"%@", [bubbleSort sort]);
 //        NSLog(@"%@", [selectionSort sort]);
-        NSLog(@"%@", [insertionSort sort]);
+//        NSLog(@"%@", [insertionSort sort]);
+        NSLog(@"%@", [quickSort sort]);
         
     }
     return 0;

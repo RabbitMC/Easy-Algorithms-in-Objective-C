@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E760186F16CAB060008DEDC5 /* MCQuickSort.m in Sources */ = {isa = PBXBuildFile; fileRef = E760186E16CAB060008DEDC5 /* MCQuickSort.m */; };
 		E7BD4193166E4BB0000F3CA3 /* MCInsertionSort.m in Sources */ = {isa = PBXBuildFile; fileRef = E7BD4192166E4BB0000F3CA3 /* MCInsertionSort.m */; };
 		E7CC1B80166E1CD20000D88C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7CC1B7F166E1CD20000D88C /* Foundation.framework */; };
 		E7CC1B83166E1CD20000D88C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E7CC1B82166E1CD20000D88C /* main.m */; };
@@ -29,6 +30,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		E760186D16CAB060008DEDC5 /* MCQuickSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCQuickSort.h; sourceTree = "<group>"; };
+		E760186E16CAB060008DEDC5 /* MCQuickSort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCQuickSort.m; sourceTree = "<group>"; };
 		E7BD4191166E4BB0000F3CA3 /* MCInsertionSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCInsertionSort.h; sourceTree = "<group>"; };
 		E7BD4192166E4BB0000F3CA3 /* MCInsertionSort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCInsertionSort.m; sourceTree = "<group>"; };
 		E7CC1B7B166E1CD20000D88C /* Algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Algorithm; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -89,6 +92,8 @@
 				E7CC1B91166E27720000D88C /* MCSelectionSort.m */,
 				E7BD4191166E4BB0000F3CA3 /* MCInsertionSort.h */,
 				E7BD4192166E4BB0000F3CA3 /* MCInsertionSort.m */,
+				E760186D16CAB060008DEDC5 /* MCQuickSort.h */,
+				E760186E16CAB060008DEDC5 /* MCQuickSort.m */,
 				E7CC1B86166E1CD20000D88C /* Algorithm.1 */,
 				E7CC1B84166E1CD20000D88C /* Supporting Files */,
 			);
@@ -158,6 +163,7 @@
 				E7CC1B8F166E1CF70000D88C /* MCBubbleSort.m in Sources */,
 				E7CC1B92166E27720000D88C /* MCSelectionSort.m in Sources */,
 				E7BD4193166E4BB0000F3CA3 /* MCInsertionSort.m in Sources */,
+				E760186F16CAB060008DEDC5 /* MCQuickSort.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
